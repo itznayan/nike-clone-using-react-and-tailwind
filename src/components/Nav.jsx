@@ -19,7 +19,7 @@ const Nav = () => {
           <li key={item.label}>
             <a
               href={item.href}
-              className="text-lg hover:border-b hover:border-gray-400 px-1 hover:hover:tracking-[4px] hover:font-[600] hover:text-gray-900 duration-500 leading-normal font-montserrat text-slate-gray"
+              className="text-lg  hover:border-b hover:border-gray-400 px-1 hover:hover:tracking-[4px] hover:font-[600] hover:text-gray-900 duration-500 leading-normal font-montserrat text-slate-gray"
             >
               {item.label}
             </a>
