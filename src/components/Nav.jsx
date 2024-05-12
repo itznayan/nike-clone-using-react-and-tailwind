@@ -3,7 +3,7 @@ import hamburger from "../assets/icons/hamburger.svg";
 import { navLinks } from "../constants/index.js";
 const Nav = () => {
   return (
-    <header className="absolute z-10 w-full py-4 backdrop:backdrop-blur-sm padding-x">
+    <header className="absolute backdrop-blur-md backdrop-brightness-110 z-10 w-full py-4 backdrop:backdrop-blur-sm padding-x">
       <nav className="flex items-center max-container">
         <a href="/"></a>
         <img

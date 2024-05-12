@@ -9,14 +9,14 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="flex flex-col justify-center w-full min-h-screen gap-10 p-2 xl:flex-row max-container"
+      className=" flex flex-col justify-center w-full min-h-screen gap-10 p-2 xl:flex-row max-container"
     >
       <div className="relative flex flex-col items-start justify-center w-full xl:w2/5 max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-coral-red">
           Our Winter Collection
         </p>
         <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold">
-          <span className="absolute max-lg:relative z-10 pr-10  xl:whitespace-nowrap mix-blend-darken">
+          <span className="absolute max-lg:relative z-10 pr-10  xl:whitespace-nowrap">
             The New Arrival
           </span>
           <br />
